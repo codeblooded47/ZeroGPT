@@ -2,6 +2,9 @@
 
 > **What is this?** This project lets you build your very own AI language model — the same kind of technology behind ChatGPT — completely from scratch using Python and PyTorch. No magic, no black boxes — just math and code you can read and understand.
 
+📚 **[Beginner's Guide](GUIDE.md)** — Understand datasets, training steps, context length, and parameters in plain English
+🧮 **[Technical Blueprint](BLUEPRINT.md)** — Deep dive into the math, formulas, and design decisions behind the model
+
 ---
 
 ## 📖 What Do All These Words Mean?
