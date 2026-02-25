@@ -1,0 +1,43 @@
+# ─── Python ────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+
+# ─── Virtual Environment ──────────────────────
+venv/
+.venv/
+env/
+
+# ─── Data (large files — download with data/download.py) ──
+data/raw/
+data/processed/
+
+# ─── Model Checkpoints (generated during training) ──
+checkpoints/
+
+# ─── Tokenizer model (generated — retrain with sentencepiece) ──
+tokenizer/sp_bpe.model
+tokenizer/sp_bpe.vocab
+tokenizer/bpe_tokenizer.json
+
+# ─── Logs ──────────────────────────────────────
+logs/
+
+# ─── OS Files ──────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# ─── IDE ───────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace
+
+# ─── Misc ──────────────────────────────────────
+*.pt
+*.bin
+*.npy
